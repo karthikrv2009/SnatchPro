@@ -1,16 +1,23 @@
 package org.rvsystem.snatchpro.transaction.entity;
 
-import org.rvsystem.snatchpro.vendor.entity.Vendor;
+import java.util.Date;
+import java.util.Set;
+
+import org.rvsystem.snatchpro.item.entity.Item;
 
 public class VendorTransaction {
 
 	private long id;
 	
-	private Transaction transaction;
+	private Set<Item> items;
 	
-	private Vendor vendor;
+	private long Quantity;
 	
-	private String status;
+	private Date startDate;
+	
+	private Date endDate;
+	
+	private Reciept reciept;
 	
 
 }

@@ -1,5 +1,7 @@
 package org.rvsystem.snatchpro.transaction.entity;
 
+import java.math.BigInteger;
+
 import org.rvsystem.snatchpro.customer.entity.Customer;
 import org.rvsystem.snatchpro.item.entity.Item;
 
@@ -13,7 +15,7 @@ public class Transaction {
 	
 	private String status;
 	
-	private BigInter amount;
+	private BigInteger amount;
 	
 	
 	
